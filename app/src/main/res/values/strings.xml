@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Cooking Recipes</string>
+    <string name="recipe_name_1">Lasagna</string>
+    <string name="recipe_name_2">Omelette</string>
+    <string name="recipe_name_3">Spaghetti</string>
+    <string name="recipe_name_4">Pancakes</string>
+    <string name="recipe_name_5">Cupcake</string>
+    <string name="recipe_name_6">Lasagna</string>
+    <string name="recipe_name_7">Lasagna</string>
+    <string name="recipe_name_8">Lasagna</string>
+
+    <string name="recipe_text_1">Start by making the sauce with ground beef, bell peppers, onions, and a combo of tomato sauce, tomato paste, and crushed tomatoes. The three kinds of tomatoes gives the sauce great depth of flavor.
+        \nLet this simmer while you boil the noodles and get the cheeses ready. We are using ricotta, shredded mozzarella, and parmesan - like the mix of tomatoes, this 3-cheese blend gives the lasagna great flavor!
+        \nFrom there, it\'s just an assembly job. A cup of meat sauce, a layer of noodles, more sauce, followed by a layer of cheese. Repeat until you have three layers and have used up all the ingredients.
+        \nBake until bubbly and you\'re ready to eat!</string>
+    <string name="recipe_text_2">Season the beaten eggs well with salt and pepper. Heat the oil and butter in a non-stick frying pan over a medium-low heat until the butter has melted and is foaming.
+Pour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.
+Tilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.
+At this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the spatula. Slide onto a plate to serve.</string>
+    <string name="recipe_text_3">Sdadasdasd</string>
+    <string name="recipe_text_4">Sdadasdasd</string>
+    <string name="recipe_text_5">Sdadasdasd</string>
+    <string name="recipe_text_6">Sdadasdasd</string>
+    <string name="recipe_text_7">Sdadasdasd</string>
+    <string name="recipe_text_8">Sdadasdasd</string>
+</resources>
