@@ -3,9 +3,12 @@ package com.myportfolio.mycookingrecipes
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -144,7 +147,11 @@ fun RecipeCard(
                 contentDescription = null,
                 modifier = modifier.clip(RoundedCornerShape(4))
             )
-            if (isExpanded) {
+            AnimatedVisibility(
+                visible = isExpanded,
+                enter = fadeIn(),
+                exit = fadeOut()
+            ) {
                 Text(
                     text = stringResource(recipe.recipeText)
                 )
