@@ -17,13 +17,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.rounded.KeyboardArrowDown
 import androidx.compose.material.icons.rounded.KeyboardArrowUp
 import androidx.compose.material3.Card
@@ -58,11 +55,12 @@ import com.myportfolio.mycookingrecipes.data.recipes
 import com.myportfolio.mycookingrecipes.ui.theme.MyCookingRecipesTheme
 
 class MainActivity : ComponentActivity() {
+    // Runs when the Activity is created.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             MyCookingRecipesTheme {
-                // A surface container using the 'background' color from the theme
+                // A surface container using the 'background' color from the theme.
                 Surface(
                     color = MaterialTheme.colorScheme.background,
                     modifier = Modifier.fillMaxSize()
@@ -74,6 +72,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Composable that displays an app bar and a list of cooking recipes.
+ * The app bar has the app title and an icon.
+ * The list is a LazyColumn that contains a recipe card for each recipe in the app.
+ *
+ * @param modifier is the modifier to apply to this composable.
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppScreen(modifier: Modifier = Modifier) {
@@ -84,10 +89,9 @@ fun AppScreen(modifier: Modifier = Modifier) {
                 title = {
                     Row {
                         Text(
-                            text = stringResource(R.string.app_name),
+                            text = stringResource(R.string.app_name) + " ",
                             fontWeight = FontWeight.Bold
                         )
-                        Spacer(modifier = modifier.width(8.dp))
                         Icon(
                             painter = painterResource(R.drawable.appbar_title_icon),
                             contentDescription = null
@@ -116,6 +120,13 @@ fun AppScreen(modifier: Modifier = Modifier) {
     }
 }
 
+/**
+ * Composable that displays a cooking recipe card.
+ * The card contains all the recipe information, an image and an icon button to expand the card.
+ *
+ * @param recipe contains all the data about the card's cooking recipe.
+ * @param modifier is the modifier to apply to this composable.
+ */
 @Composable
 fun RecipeCard(
     recipe: Recipe,
@@ -136,6 +147,7 @@ fun RecipeCard(
                 )
         ) {
             Row {
+                // Composable that shows the recipe name.
                 Text(
                     text = stringResource(recipe.name),
                     fontSize = 24.sp
@@ -148,7 +160,7 @@ fun RecipeCard(
             }
             Image(
                 painter = painterResource(recipe.imageResourceId),
-                contentDescription = null,
+                contentDescription = stringResource(R.string.recipe_illustration),
                 contentScale = ContentScale.Crop,
                 modifier = modifier
                     .clip(RoundedCornerShape(4))
@@ -168,12 +180,24 @@ fun RecipeCard(
     }
 }
 
+/**
+ * Composable that displays an clickable icon button with an arrow icon.
+ * The arrow icon changes according to the isExpanded value.
+ *
+ * @param isExpanded represents whether the arrow icon's direction should be up or down.
+ * @param onClick is the action that happens when the icon button is clicked.
+ * @param modifier is the modifier to apply to this composable.
+ */
 @Composable
 fun ExpandRecipeButton (
     isExpanded : Boolean,
-    onClick : () -> Unit
+    onClick : () -> Unit,
+    modifier : Modifier = Modifier
 ) {
-    IconButton(onClick = onClick) {
+    IconButton(
+        onClick = onClick,
+        modifier = modifier
+    ) {
         if (isExpanded) {
             Icon(
                 Icons.Rounded.KeyboardArrowUp,
@@ -188,6 +212,9 @@ fun ExpandRecipeButton (
     }
 }
 
+/**
+ * Composable that shows a preview of what the UI of the app looks like.
+ */
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {

@@ -45,4 +45,5 @@
     </string>
     <string name="open_recipe">Opens the recipe.</string>
     <string name="close_recipe">Closes the recipe.</string>
+    <string name="recipe_illustration">Recipe illustration</string>
 </resources>
