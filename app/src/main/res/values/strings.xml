@@ -4,23 +4,45 @@
     <string name="recipe_name_2">Omelette</string>
     <string name="recipe_name_3">Spaghetti</string>
     <string name="recipe_name_4">Pancakes</string>
-    <string name="recipe_name_5">Cupcake</string>
-    <string name="recipe_name_6">Lasagna</string>
-    <string name="recipe_name_7">Lasagna</string>
-    <string name="recipe_name_8">Lasagna</string>
+    <string name="recipe_name_5">Cupcakes</string>
+    <string name="recipe_name_6">Pizza</string>
 
-    <string name="recipe_text_1">Start by making the sauce with ground beef, bell peppers, onions, and a combo of tomato sauce, tomato paste, and crushed tomatoes. The three kinds of tomatoes gives the sauce great depth of flavor.
+    <string name="recipe_text_1">
+        Start by making the sauce with ground beef, bell peppers, onions, and a combo of tomato sauce, tomato paste, and crushed tomatoes. The three kinds of tomatoes gives the sauce great depth of flavor.
         \nLet this simmer while you boil the noodles and get the cheeses ready. We are using ricotta, shredded mozzarella, and parmesan - like the mix of tomatoes, this 3-cheese blend gives the lasagna great flavor!
         \nFrom there, it\'s just an assembly job. A cup of meat sauce, a layer of noodles, more sauce, followed by a layer of cheese. Repeat until you have three layers and have used up all the ingredients.
-        \nBake until bubbly and you\'re ready to eat!</string>
-    <string name="recipe_text_2">Season the beaten eggs well with salt and pepper. Heat the oil and butter in a non-stick frying pan over a medium-low heat until the butter has melted and is foaming.
-Pour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.
-Tilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.
-At this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the spatula. Slide onto a plate to serve.</string>
-    <string name="recipe_text_3">Sdadasdasd</string>
-    <string name="recipe_text_4">Sdadasdasd</string>
-    <string name="recipe_text_5">Sdadasdasd</string>
-    <string name="recipe_text_6">Sdadasdasd</string>
-    <string name="recipe_text_7">Sdadasdasd</string>
-    <string name="recipe_text_8">Sdadasdasd</string>
+        \nBake until bubbly and you\'re ready to eat!
+    </string>
+    <string name="recipe_text_2">
+        Season the beaten eggs well with salt and pepper. Heat the oil and butter in a non-stick frying pan over a medium-low heat until the butter has melted and is foaming.
+        \nPour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.
+        \nTilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.
+        \nAt this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the spatula.
+        \nSlide onto a plate to serve.
+    </string>
+    <string name="recipe_text_3">
+        Cook ground beef in a saucepan over medium-high heat with garlic, onion, and green pepper. Stir until the meat is brown and crumbly. The vegetables should be tender.
+        \nStir diced tomatoes, tomato sauce, and tomato paste into the beef mixture. Add oregano, basil, salt, and pepper. Simmer until thick and aromatic.
+        \nCook 400g spaghetti following the pack instructions. Drain the spaghetti and either stir into the sauce, or serve the sauce on top.
+    </string>
+    <string name="recipe_text_4">
+        Heat a griddle or large skillet over medium-low heat. In a bowl, mix together dry ingredients. Beat eggs into 1½ cups milk, then stir in 2 tablespoons melted cooled butter, if using it. Gently stir this mixture into dry ingredients, mixing only enough to moisten flour.
+        \nPlace a teaspoon or 2 of butter or oil on griddle or skillet. When butter foam subsides or oil shimmers, ladle batter onto griddle or skillet, making pancakes of any size you like. Flip pancakes after bubbles rise to surface and bottoms brown, after 2 to 4 minutes.
+        \nCook until second side is lightly browned. Serve, or hold on an ovenproof plate in a 200-degree oven for up to 15 minutes.
+    </string>
+    <string name="recipe_text_5">
+        Heat oven to 180C/160°C fan/gas 4 and fill a 12 cupcake tray with cases.
+        \nUsing an electric whisk beat 110g softened butter and 110g golden caster sugar together until pale and fluffy then whisk in 2 large eggs, one at a time, scraping down the sides of the bowl after each addition.
+        \nAdd ½ tsp vanilla extract, 110g self-raising flour and a pinch of salt, whisk until just combined then spoon the mixture into the cupcake cases.
+        \nBake for 15 mins until golden brown and a skewer inserted into the middle of each cake comes out clean. Leave to cool completely on a wire rack.
+        \nTo make the buttercream, whisk 150g softened butter until super soft then add 300g icing sugar, 1 tsp vanilla extract and a pinch of salt. Whisk together until smooth (start off slowly to avoid an icing sugar cloud) then beat in 3 tbsp milk.
+    </string>
+    <string name="recipe_text_6">
+        Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it\'s not essential for a thin crust.
+        \nMix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.
+        \nIf you\'ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.
+        \nHeat the oven to 240°C/220°C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on it\'s baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.
+    </string>
+    <string name="open_recipe">Opens the recipe.</string>
+    <string name="close_recipe">Closes the recipe.</string>
 </resources>

@@ -14,7 +14,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -42,6 +45,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -145,7 +149,11 @@ fun RecipeCard(
             Image(
                 painter = painterResource(recipe.imageResourceId),
                 contentDescription = null,
-                modifier = modifier.clip(RoundedCornerShape(4))
+                contentScale = ContentScale.Crop,
+                modifier = modifier
+                    .clip(RoundedCornerShape(4))
+                    .fillMaxWidth()
+                    .height(dimensionResource(R.dimen.recipe_image_height))
             )
             AnimatedVisibility(
                 visible = isExpanded,
@@ -169,12 +177,12 @@ fun ExpandRecipeButton (
         if (isExpanded) {
             Icon(
                 Icons.Rounded.KeyboardArrowUp,
-                contentDescription = "Open the recipe."
+                contentDescription = stringResource(R.string.close_recipe)
             )
         } else {
             Icon(
                 Icons.Rounded.KeyboardArrowDown,
-                contentDescription = "Close the recipe."
+                contentDescription = stringResource(R.string.open_recipe)
             )
         }
     }

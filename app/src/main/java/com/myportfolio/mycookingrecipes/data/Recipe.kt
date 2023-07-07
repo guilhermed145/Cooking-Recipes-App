@@ -15,8 +15,6 @@ val recipes = listOf(
     Recipe(R.string.recipe_name_2,R.string.recipe_text_2, R.drawable.omelette),
     Recipe(R.string.recipe_name_3,R.string.recipe_text_3, R.drawable.spaghetti),
     Recipe(R.string.recipe_name_4,R.string.recipe_text_4, R.drawable.pancakes),
-    Recipe(R.string.recipe_name_5,R.string.recipe_text_5, R.drawable.lasagna),
-    Recipe(R.string.recipe_name_6,R.string.recipe_text_6, R.drawable.lasagna),
-    Recipe(R.string.recipe_name_7,R.string.recipe_text_7, R.drawable.lasagna),
-    Recipe(R.string.recipe_name_8,R.string.recipe_text_8, R.drawable.lasagna),
+    Recipe(R.string.recipe_name_5,R.string.recipe_text_5, R.drawable.cupcakes),
+    Recipe(R.string.recipe_name_6,R.string.recipe_text_6, R.drawable.pizza)
 )
