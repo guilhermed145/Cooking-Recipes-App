@@ -33,6 +33,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -85,20 +86,9 @@ fun AppScreen(modifier: Modifier = Modifier) {
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = {
-                    Row {
-                        Text(
-                            text = stringResource(R.string.app_name) + " ",
-                            fontWeight = FontWeight.Bold
-                        )
-                        Icon(
-                            painter = painterResource(R.drawable.appbar_title_icon),
-                            contentDescription = null
-                        )
-                    }
-                },
-                scrollBehavior = scrollBehavior
+            MainAppBar(
+                scrollBehavior = scrollBehavior,
+                modifier = modifier
             )
         },
         modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection)
@@ -114,6 +104,37 @@ fun AppScreen(modifier: Modifier = Modifier) {
             }
         }
     }
+}
+
+/**
+ * Composable that displays the app bar.
+ * It contains the app title followed by an icon.
+ *
+ * @param scrollBehavior defines the TopAppBar's behavior when scrolling through the app.
+ * @param modifier is the modifier to apply to this composable.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun MainAppBar(
+    scrollBehavior: TopAppBarScrollBehavior,
+    modifier: Modifier = Modifier
+) {
+    TopAppBar(
+        title = {
+            Row {
+                Text(
+                    text = stringResource(R.string.app_name) + " ",
+                    fontWeight = FontWeight.Bold
+                )
+                Icon(
+                    painter = painterResource(R.drawable.appbar_title_icon),
+                    contentDescription = null
+                )
+            }
+        },
+        scrollBehavior = scrollBehavior,
+        modifier = modifier
+    )
 }
 
 /**
@@ -143,7 +164,6 @@ fun RecipeCard(
                 )
         ) {
             Row {
-                // Composable that shows the recipe name.
                 Text(
                     text = stringResource(recipe.name),
                     fontSize = 24.sp
