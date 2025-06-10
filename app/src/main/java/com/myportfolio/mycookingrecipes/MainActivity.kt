@@ -53,6 +53,19 @@ import com.myportfolio.mycookingrecipes.data.Recipe
 import com.myportfolio.mycookingrecipes.data.recipes
 import com.myportfolio.mycookingrecipes.ui.theme.MyCookingRecipesTheme
 
+/**
+ * (PT-BR)
+ * Esta é a Activity principal do aplicativo.
+ * Quando criada, verifica qual tema está sendo usado pelo dispositivo e o aplica na UI.
+ * Ela contém o Composable Surface, responsável por exibir o Composable AppScreen e mudar a cor
+ * de fundo se baseando no tema sendo usado pelo dispositivo.
+ *
+ * (EN)
+ * This is the app's main Activity.
+ * When created, it checks which theme is being used by the device and applies it to the UI.
+ * It contains the Surface Composable, responsible for displaying the AppScreen composable and
+ * changing the background color based on the theme being used by the device.
+ */
 class MainActivity : ComponentActivity() {
     // Runs when the Activity is created.
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -74,11 +87,17 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * Composable that displays an app bar and a list of cooking recipes.
+ * (PT-BR)
+ * Este Composable exibe uma AppBar e uma lista de receitas de culinária.
+ * A AppBar contém o título do aplicativo e um ícone.
+ * A lista é uma LazyColumn que contém um cartão de receita para cada receita no aplicativo.
+ *
+ * (EN)
+ * This composable displays an app bar and a list of cooking recipes.
  * The app bar has the app title and an icon.
  * The list is a LazyColumn that contains a recipe card for each recipe in the app.
  *
- * @param modifier is the modifier to apply to this composable.
+ * @param modifier the modifier to be applied to this composable.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -107,11 +126,16 @@ fun AppScreen(modifier: Modifier = Modifier) {
 }
 
 /**
- * Composable that displays the app bar.
+ * (PT-BR)
+ * Este Composable exibe a AppBar.
+ * Ela contém o título do aplicativo, seguido de um ícone.
+ *
+ * (EN)
+ * This Composable displays the app bar.
  * It contains the app title followed by an icon.
  *
  * @param scrollBehavior defines the TopAppBar's behavior when scrolling through the app.
- * @param modifier is the modifier to apply to this composable.
+ * @param modifier the modifier to be applied to this composable.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -138,11 +162,16 @@ fun MainAppBar(
 }
 
 /**
- * Composable that displays a cooking recipe card.
+ * (PT-BR)
+ * Este é um Composable que exibe um cartão de uma receita culinária.
+ * O cartão contém as informações da receita, uma imagem e um botão de ícone que expande o cartão.
+ *
+ * (EN)
+ * This is a Composable that displays a cooking recipe card.
  * The card contains all the recipe information, an image and an icon button to expand the card.
  *
  * @param recipe contains all the data about the card's cooking recipe.
- * @param modifier is the modifier to apply to this composable.
+ * @param modifier the modifier to be applied to this composable.
  */
 @Composable
 fun RecipeCard(
@@ -197,12 +226,17 @@ fun RecipeCard(
 }
 
 /**
- * Composable that displays an clickable icon button with an arrow icon.
- * The arrow icon changes according to the isExpanded value.
+ * (PT-BR)
+ * Este é um composable que exibe um IconButton com um ícone de flecha.
+ * O ícone de flecha muda de direção de acordo com o valor de isExpanded.
+ *
+ * (EN)
+ * This is a Composable that displays an icon button with an arrow icon.
+ * The arrow icon changes direction according to the isExpanded value.
  *
  * @param isExpanded represents whether the arrow icon's direction should be up or down.
  * @param onClick is the action that happens when the icon button is clicked.
- * @param modifier is the modifier to apply to this composable.
+ * @param modifier the modifier to be applied to this composable.
  */
 @Composable
 fun ExpandRecipeButton (
@@ -229,7 +263,11 @@ fun ExpandRecipeButton (
 }
 
 /**
- * Composable that shows a preview of what the UI of the app looks like.
+ * (PT-BR)
+ * Este Composable mostra uma pré-visualização da UI do aplicativo.
+ *
+ * (EN)
+ * This Composable shows a preview of the app's UI.
  */
 @Preview(showBackground = true)
 @Composable
@@ -240,7 +278,11 @@ fun AppScreenPreview() {
 }
 
 /**
- * Composable that shows a preview of what the UI of the app looks like using the dark theme.
+ * (PT-BR)
+ * Este Composable mostra uma pré-visualização da UI do aplicativo com o tema escuro aplicado.
+ *
+ * (EN)
+ * This Composable shows a preview of the app's UI with the dark theme applied.
  */
 @Preview(showBackground = true)
 @Composable

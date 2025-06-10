@@ -5,6 +5,10 @@ import androidx.annotation.StringRes
 import com.myportfolio.mycookingrecipes.R
 
 /**
+ * (PT-BR)
+ * Uma classe de dados que representa a informação apresentada no cartão de uma receita.
+ *
+ * (EN)
  * A data class that represents the information presented in a recipe card.
  */
 data class Recipe(
