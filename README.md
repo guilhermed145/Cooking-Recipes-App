@@ -1,4 +1,4 @@
-# My Cooking Recipes App 📱 (PT-BR)
+# 📱 My Cooking Recipes App (PT-BR)
 
 Este é meu primeiro aplicativo Android, desenvolvido usando **Kotlin** e **Jetpack Compose** como parte do meu processo de aprendizado e familiarização com práticas modernas de desenvolvimento Android. O principal objetivo do projeto foi explorar as capacidades do Jetpack Compose e aplicar na prática a construção de componentes de UI de forma declarativa.
 
@@ -13,7 +13,7 @@ O app tem como intuito mostrar instruções de algumas receitas culinárias que 
 - **Acessibilidade**: Inclusão de descrições de conteúdo com o intuito de melhorar a usabilidade para todos os usuários.
 
 
-# My Cooking Recipes App 📱 (EN)
+# 📱 My Cooking Recipes App (EN)
 
 This is my first Android application, developed using **Kotlin** and **Jetpack Compose** as part of my learning process and familiarization with modern Android development practices. The main goal of the project was to explore the capabilities of Jetpack Compose and apply declarative UI component construction in practice.
 
