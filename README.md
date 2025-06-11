@@ -8,7 +8,6 @@ O app tem como intuito mostrar instruções de algumas receitas culinárias que 
 ## ⚙️ Principais Funcionalidades
 - **Tema Claro e Escuro**: Implementado usando `MaterialTheme`, permitindo que a interface se adapte dinamicamente às configurações do sistema.
 - **LazyColumn**: Renderização eficiente de listas verticais com o composable `LazyColumn`.
-- **Data Class**: Uso da `data class` do Kotlin para o armazenamento de dados de forma limpa.
 - **Cards Expansíveis**: Utilização do composable `Card` que expande ou diminui conforme a interação do usuário, demonstrando gerenciamento de estado com `remember` e `mutableStateOf`.
 - **Acessibilidade**: Inclusão de descrições de conteúdo com o intuito de melhorar a usabilidade para todos os usuários.
 
@@ -23,7 +22,6 @@ The app is intended to display instructions for a few cooking recipes that the u
 ## ⚙️ Key Features
 - **Light and Dark Theme**: Implemented using `MaterialTheme`, allowing the interface to adapt dynamically to the system settings.
 - **LazyColumn**: Efficient rendering of vertical lists using the `LazyColumn` composable.
-- **Data Class**: Use of Kotlin `data class` for clean and structured data storage.
 - **Expandable Cards**: Implementation of the `Card` composable that expands or collapses based on user interaction, demonstrating state management with `remember` and `mutableStateOf`.
 - **Accessibility**: Inclusion of content descriptions to enhance usability for all users.
 
