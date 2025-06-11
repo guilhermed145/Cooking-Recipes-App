@@ -29,4 +29,4 @@ The app is intended to display instructions for a few cooking recipes that the u
 
 
 # 📸 Screenshots
-![MyCookingRecipesApp - Main Screen](https://github.com/user-attachments/assets/aa17a1f8-cf9c-40a2-b3d6-8555fef88a71) ![MyCookingRecipesApp - Main Screen Dark Theme](https://github.com/user-attachments/assets/e3ab4c01-2873-4b84-8814-e6167db6fea3)
+![MyCookingRecipesApp - Main Screen Small](https://github.com/user-attachments/assets/b106d1b7-bb3b-4b5a-b75e-a0bd46b1524a) ![MyCookingRecipesApp - Main Screen Dark Theme Small](https://github.com/user-attachments/assets/2055ec78-c466-464c-8e18-40494af21d4e)
